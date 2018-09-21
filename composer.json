@@ -22,10 +22,7 @@
         "laravel": {
             "providers": [
                 "prokawsar\\PasswordValidator\\PasswordValidatorServiceProvider"
-            ],
-            "aliases": {
-                
-            }
+            ]
         }
     }
 }
