@@ -28,6 +28,5 @@ class PasswordValidatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        
     }
 }

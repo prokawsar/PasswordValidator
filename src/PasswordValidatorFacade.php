@@ -1,4 +1,5 @@
 <?php
+
 namespace prokawsar\PasswordValidator;
 
 use Illuminate\Support\Facades\Facade;
