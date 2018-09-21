@@ -4,7 +4,7 @@ namespace prokawsar\PasswordValidator\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 
-class Upepercase implements Rule
+class Uppercase implements Rule
 {
     /**
      * Create a new rule instance.
