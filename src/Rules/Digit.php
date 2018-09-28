@@ -26,6 +26,12 @@ class Digit implements Rule
      */
     public function passes($attribute, $value)
     {   // Custom checking code
+        for($i=0; $i< strlen($value); $i++){
+            if($value[$i] >= '0' && $value[$i] <= '9'){
+                return true;
+            }
+        }
+
         return false;
     }
 
