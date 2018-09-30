@@ -11,7 +11,7 @@ Currently on development
 
 ## Installation 
 Run
-`composer require prokawsar\PasswordValidator`
+`composer require prokawsar\password-validator`
 (Currentyly auto discovery is not working) (Feel free to make a PR :P )
 
 So, copy `prokawsar\PasswordValidator\PasswordValidatorServiceProvider::class` to `config/app.php` in provider section.
