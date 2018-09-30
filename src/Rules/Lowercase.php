@@ -31,6 +31,7 @@ class Lowercase implements Rule
                 return true;
             }
         }
+
         return false;
     }
 

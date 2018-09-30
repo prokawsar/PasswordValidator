@@ -31,6 +31,7 @@ class Uppercase implements Rule
                 return true;
             }
         }
+
         return false;
     }
 
