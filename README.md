@@ -9,7 +9,35 @@
 
 Currently on development
 
+## Installation 
+Run
+`composer require prokawsar\PasswordValidator`
+(Currentyly auto discovery is not working) (Feel free to make a PR :P )
+
+So, copy `prokawsar\PasswordValidator\PasswordValidatorServiceProvider::class` to `config/app.php` in provider section.
+
+Then run `php artisan vendor:publish` and select `prokawsar\PasswordValidator` package, all rules will be installed in App folder.
+
+
 ## To use this package
 
 Use `use App\Rules\{RuleName};` in a file, then add rule in Validator as `new RuleName`
 
+
+E.G. 
+```php
+<?php
+  use App\Rules\Uppercase;
+
+  return Validator::make($data, [
+      'email' => 'required|string|email|max:255|unique:users',
+      // 'password' => 'required|string|min:6|confirmed',
+      'password' => ['required', new Uppercase],
+
+  ]);
+```
+## Customization
+
+You can set your own `error` message
+
+To set error message go to `App\Rules\{RuleName}` and modify return value in `message()` function.
