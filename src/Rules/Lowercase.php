@@ -26,7 +26,7 @@ class Lowercase implements Rule
      */
     public function passes($attribute, $value)
     {   // Custom checking code
-        for($i = 0; $i < strlen($value); $i++) {
+        for ($i = 0; $i < strlen($value); $i++) {
             if ($value[$i] >= 'a' && $value[$i] <= 'z') {
                 return true;
             }
