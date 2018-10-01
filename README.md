@@ -10,13 +10,13 @@
 Currently on development
 
 ## Installation 
-Run
-`composer require prokawsar\password-validator`
+- [x] Run `composer require prokawsar\password-validator`
+
 (Currentyly auto discovery is not working) (Feel free to make a PR :P )
 
-So, copy `prokawsar\PasswordValidator\PasswordValidatorServiceProvider::class` to `config/app.php` in provider section.
+- [x] copy `prokawsar\PasswordValidator\PasswordValidatorServiceProvider::class` to `config/app.php` in provider section.
 
-Then run `php artisan vendor:publish` and select `prokawsar\PasswordValidator` package, all rules will be installed in App folder.
+- [x] Then run `php artisan vendor:publish` and select `prokawsar\PasswordValidator` package, all rules will be installed in App/Rules folder.
 
 
 ## To use this package
