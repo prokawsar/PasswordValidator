@@ -16,7 +16,9 @@ Currently on development
 
 - [x] copy `prokawsar\PasswordValidator\PasswordValidatorServiceProvider::class` to `config/app.php` in provider section.
 
-- [x] Then run `php artisan vendor:publish` and select `prokawsar\PasswordValidator` package, all rules will be installed in App/Rules folder.
+- [x] Then run `php artisan vendor:publish` and select `Provider: prokawsar\PasswordValidator\PasswordValidatorServiceProvider` package 
+
+all rules will be installed in App/Rules folder.
 
 
 ## To use this package
