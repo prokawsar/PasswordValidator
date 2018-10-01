@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=7.0.0",
+        "prokawsar/password-validator": "^1.0"
     },
     "autoload": {
         "psr-4": {
