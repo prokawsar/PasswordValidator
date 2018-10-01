@@ -10,7 +10,7 @@
 Currently on development
 
 ## Installation 
-- [x] Run `composer require prokawsar\password-validator`
+- [x] Run `composer require prokawsar/password-validator`
 
 (Currentyly auto discovery is not working) (Feel free to make a PR :P )
 
